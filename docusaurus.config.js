@@ -7,7 +7,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 const config = {
-  title: 'Research',
+  title: 'Home',
   tagline: 'Research is fun',
   favicon: 'img/favicon.ico',
 
@@ -40,7 +40,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: 'content',
+          routeBasePath: 'research',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -55,9 +55,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Research',
+        title: 'Home',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Site Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -65,7 +65,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'sidebar',
             position: 'left',
-            label: 'Content',
+            label: 'Research',
           },
         ],
       },
@@ -76,25 +76,21 @@ const config = {
             title: 'Contact Me',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'vincent.bowen@colorado.edu',
+                href: 'mailto:vincent.bowen@colorado.edu',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Social Media',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Linked In',
+                href: 'https://www.linkedin.com/in/vincentbowen/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/vincedbowen',
               },
             ],
           },
@@ -102,7 +98,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'Colophon',
                 to: '/blog',
               },
               {

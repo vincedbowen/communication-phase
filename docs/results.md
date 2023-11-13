@@ -1,3 +1,1 @@
----
-sidebar_results: 3
----
+# Results
