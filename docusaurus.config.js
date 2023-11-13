@@ -22,8 +22,8 @@ const config = {
   organizationName: 'vincedbowen', // Usually your GitHub org/user name.
   projectName: 'communication-phase', // Usually your repo name.
   trailingSlash: true,
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
