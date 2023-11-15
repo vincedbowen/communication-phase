@@ -19,7 +19,7 @@ const sidebars = {
     'methodology',
     'results',
     'discussion',
-    'bibliography'
+    'references'
   ],
   // But you can create a sidebar manually
   // contentSidebar: [
