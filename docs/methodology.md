@@ -6,3 +6,4 @@ Systematic review of other people's studies. Essentially, I think I should use m
 - Discuss search terms used and where
     - Databases, sources, and why I searched these things
 - Begin discussing why I had trouble finding large amounts of research
+- Discuss methods for conducting outreach 
