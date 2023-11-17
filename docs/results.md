@@ -4,18 +4,47 @@
 - Outreach with FDA
 - Would like to find a doctor who uses the daVinci machine
 
-![The San Juan Mountains are beautiful!](../static/img/adverseEvents.png "San Juan Mountains")
+## Semi-Systematic Review of Current Data
 
-![Alt text](../static/img/AISurgery.png)
-
-![Alt text](../static/img/cancerSurvive.png)
+### Patient Outcomes
 
 ![Alt text](../static/img/cardiacOutcome.png)
+- Should break up into different figures
 
-![Alt text](../static/img/continentPotent.png)
-
-![Alt text](../static/img/cost.png)
+#### Mortality 
 
 ![Alt text](../static/img/mortalityRates.png)
 
+#### Length of Stay
+
+#### Rate of Complications 
+
+![Alt text](../static/img/continentPotent.png)
+
+#### Long term survivability
+
+![Alt text](../static/img/cancerSurvive.png)
+
+### Other important Factors
+
+#### Cost
+
+![Alt text](../static/img/cost.png)
+
+#### Usage Trends Among Physicians 
+
 ![Alt text](../static/img/surgicalTrends.png)
+
+## Why there is a lack of pubically available data
+
+## Why does innovation still thrive 
+
+-  think these last two points may be better off in the discussion section because although they are part of my research question, they will likely be postulation based on some theory of technology acceptance and research availability
+
+
+
+
+
+
+
+
