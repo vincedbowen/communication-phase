@@ -55,11 +55,11 @@ function PageButton({ text, page }) {
 function MyButtons() {
   return (
     <div className = {styles.container_col}>
-        <div className = {styles.column}>
-          <DownloadButton text = 'View as a PDF'  path = 'test.pdf'/>  
-        </div>
         <div className = {styles.column} >
-          <PageButton text = 'test'/>
+          <PageButton text = 'Check out my Research' page = './research/abstract'/>
+        </div>
+        <div className = {styles.column}>
+          <DownloadButton text = 'Download as a PDF'  path = 'test.pdf'/>  
         </div>
     </div>
   );
