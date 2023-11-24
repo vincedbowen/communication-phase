@@ -17,20 +17,33 @@ const sidebars = {
   sidebar: [
     'abstract',
     'methodology',
-    'results',
+    {
+      type: 'category',
+      label: 'Results',
+      items: [
+        {
+          type: 'category',
+          label: 'Patient Outcomes',
+          items: [
+            'results/patientOutcomes/mortality', 
+            'results/patientOutcomes/lengthOfStay',
+            'results/patientOutcomes/rateOfComplication',
+            'results/patientOutcomes/longTermSurvive',
+          ]
+        }, 
+        {
+          type: 'category',
+          label: 'Other Important Factors',
+          items: [
+            'results/otherFactors/cost',
+            'results/otherFactors/usageTrends',
+          ]
+        }, 
+      ]
+    },
     'discussion',
     'references'
   ],
-  // But you can create a sidebar manually
-  // contentSidebar: [
-  //   'intro',
-  //   'hello',
-  //   {
-  //     type: 'category',
-  //     label: 'Tutorial',
-  //     items: ['tutorial-basics/create-a-document'],
-  //   },
-  // ],
 };
 
 export default sidebars;

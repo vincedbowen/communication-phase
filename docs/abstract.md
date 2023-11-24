@@ -1,7 +1,7 @@
 # Abstract
 
-- Semi-systematic review of outcomes of robotic vs. laraposcopic vs. open surgery
-- Analysis of why there is limited data available to the public 
+- Systematic review of outcomes of robotic vs. laraposcopic vs. open surgery
+- Analysis of why there is limited conclusive data available to the public 
 - Topics: Medicine and health, technology adoption, Internet and technology [cite](https://www.pewresearch.org/topics/)
 - Research questions:
     - Why is their a lack of research regarding the outcomes of RAS
