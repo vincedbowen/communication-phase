@@ -1,13 +1,12 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import Button from '@mui/material/Button';
+import { styled } from '@mui/material/styles';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import { Link } from 'react-router-dom';
 
 function HomepageContent() {
-  const {siteConfig} = useDocusaurusContext();
   return (
       <div className="container">
         <Heading as="h1" className={styles.title} >
@@ -19,13 +18,60 @@ function HomepageContent() {
   );
 }
 
-export default function Home() {
+const MyButton = styled(Button)(() => ({
+    color: '#fff',
+    backgroundColor: '#297A5F',
+    '&:hover': {
+      backgroundColor: '#453643',
+    },
+    padding: '10px 15px',
+    marginBottom: '25px',
+}));
+
+function DownloadButton({ text, path }) {
+  const handleDownload = () => {
+          window.open(path, '_blank');
+      };
+  return ( 
+          <MyButton variant="contained" onClick={handleDownload}>
+              {text}
+          </MyButton>
+  );
+}
+
+function PageButton({ text, page }) {
+  const handleLink = () => {
+    
+  };
+  return (
+    <Link to = {page}>
+      <MyButton variant="contained" onClick = {handleLink}>
+        {text}
+      </MyButton> 
+    </Link>
+  );
+}
+
+function MyButtons() {
+  return (
+    <div className = {styles.container_col}>
+        <div className = {styles.column}>
+          <DownloadButton text = 'View as a PDF'  path = 'test.pdf'/>  
+        </div>
+        <div className = {styles.column} >
+          <PageButton text = 'test'/>
+        </div>
+    </div>
+  );
+}
+export default function Welcome() {
   return (
     <Layout
-      title={`Home`}
-      description="Description will go into a meta tag in <head />">
+      title={`Welcome`}
+    >
       <main>
-        <HomepageContent />
+        <HomepageContent/>
+        <MyButtons/>
       </main>
     </Layout>
   );
