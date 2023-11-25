@@ -12,8 +12,12 @@ function HomepageContent() {
         <Heading as="h1" className={styles.title} >
           Welcome
         </Heading>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec ac odio tempor orci dapibus ultrices. Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Sed vulputate odio ut enim blandit volutpat maecenas. Eget velit aliquet sagittis id consectetur purus ut faucibus. Pharetra et ultrices neque ornare. Molestie nunc non blandit massa. Eu turpis egestas pretium aenean pharetra. Morbi tincidunt ornare massa eget egestas. Leo a diam sollicitudin tempor id eu nisl nunc mi. Sed nisi lacus sed viverra tellus in hac habitasse. Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Dui sapien eget mi proin sed. Ut faucibus pulvinar elementum integer enim neque volutpat. Sed id semper risus in hendrerit gravida rutrum quisque non.
-        Ultricies integer quis auctor elit. Ac turpis egestas integer eget aliquet nibh praesent. Ornare suspendisse sed nisi lacus. Tortor posuere ac ut consequat semper viverra nam libero justo. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Suspendisse sed nisi lacus sed. A pellentesque sit amet porttitor eget dolor. In pellentesque massa placerat duis ultricies lacus sed. Lorem mollis aliquam ut porttitor leo a. Praesent semper feugiat nibh sed pulvinar. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Tellus cras adipiscing enim eu turpis. Lacus laoreet non curabitur gravida. Urna et pharetra pharetra massa massa ultricies mi.</p>
+        <p>Hi! Welcome to an undergraduate research project I completed for <a href="https://www.colorado.edu/plc/coen-3050enlp-3100" target="_blank" rel="noopener noreferrer">ENLP 3100</a>  at the University of Colorado Boulder. 
+        I began the class hoping to learn more about software/technology in healthcare, but soon found I was fascinated with Robotically Assisted Surgical Devices. 
+        I conducted a systematic review through hundreds of sources found from Google, Google Scholar, and my university's academic <a href="https://www.colorado.edu/libraries/research/find-articles-and-databases" target="_blank" rel="noopener noreferrer">database</a>. 
+        The purpose of this website was to present my findings in a digestible form, experiment with docusaurus, and display hopefully genuinely valuable insights. If you would like to view this research as a more traditional paper, download it as a pdf through the button below.
+        If you notice any problems, or would like to contact me about anything, send me an email! I hope you find this interesting!
+        </p>
       </div>
   );
 }

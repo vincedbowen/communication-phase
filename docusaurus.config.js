@@ -87,6 +87,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/vincedbowen',
               },
+              {
+                label: 'Website',
+                href: 'https://vincentbowen.com',
+              },
             ],
           },
           {
@@ -94,7 +98,7 @@ const config = {
             items: [
               {
                 label: 'Colophon',
-                to: '/blog',
+                to: '/colophon',
               },
               {
                 label: 'GitHub',
