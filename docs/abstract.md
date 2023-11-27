@@ -1,7 +1,8 @@
 # Abstract
 
 - Systematic review of outcomes of robotic vs. laraposcopic vs. open surgery
-- Analysis of why there is limited conclusive data available to the public 
+- Analysis of why much of the current data is considered inconclusive
+    - Or just why we need more research
 - Topics: Medicine and health, technology adoption, Internet and technology [cite](https://www.pewresearch.org/topics/)
 - Research questions:
     - Why is their a lack of research regarding the outcomes of RAS

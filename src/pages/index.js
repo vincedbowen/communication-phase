@@ -24,9 +24,9 @@ function HomepageContent() {
 
 const MyButton = styled(Button)(() => ({
     color: '#fff',
-    backgroundColor: '#297A5F',
+    backgroundColor: '#40476D',
     '&:hover': {
-      backgroundColor: '#453643',
+      backgroundColor: '#D95497',
     },
     padding: '10px 15px',
     marginBottom: '25px',
