@@ -38,13 +38,13 @@ const sidebars = {
           items: [
             'results/otherFactors/cost',
             'results/otherFactors/usageTrends',
+            'results/otherFactors/operationTime'
           ]
         }, 
       ]
     },
     'discussion',
-    'conclusion',
-    'references'
+    'conclusion'
   ],
 };
 

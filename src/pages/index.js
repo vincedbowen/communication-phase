@@ -15,7 +15,7 @@ function HomepageContent() {
         <p>Hi! Welcome to an undergraduate research project I completed for <a href="https://www.colorado.edu/plc/coen-3050enlp-3100" target="_blank" rel="noopener noreferrer">ENLP 3100</a>  at the University of Colorado Boulder. 
         I began the class hoping to learn more about software/technology in healthcare, but soon found I was fascinated with Robotically Assisted Surgical Devices. 
         I conducted a systematic review through hundreds of sources found from Google, Google Scholar, and my university's academic <a href="https://www.colorado.edu/libraries/research/find-articles-and-databases" target="_blank" rel="noopener noreferrer">database</a>. 
-        The purpose of this website was to present my findings in a digestible form, experiment with docusaurus, and display hopefully genuinely valuable insights. If you would like to view this research as a more traditional paper, download it as a pdf through the button below.
+        The purpose of this website was to present my findings in a digestible form, experiment with docusaurus, and display hopefully genuinely valuable insights. I am working on creating a formal research paper, so if you would like to view this research that way, you will be able to download it as a pdf through the button below.
         If you notice any problems, or would like to contact me about anything, send me an email! I hope you find this interesting!
         </p>
       </div>
@@ -37,7 +37,7 @@ function DownloadButton({ text, path }) {
           window.open(path, '_blank');
       };
   return ( 
-          <MyButton variant="contained" onClick={handleDownload}>
+          <MyButton variant="contained" onClick={handleDownload} disabled={true}>
               {text}
           </MyButton>
   );

@@ -1,1 +1,7 @@
 # Introduction
+
+Robotic Assisted Surgery (RAS) is a type of surgery, employing the use of mechanical arms, cameras, and software systems in an attempt to increase the control, precision, and field of view of surgeons [^1]. Often, Robotic Assisted Surgical Devices (RASDs) are the only option if a surgeon wishes to perform minimally invasive, laparoscopic surgery [^1]. Other times, open surgery, traditional laparoscopic surgery, and RAS may be options. Patients, healthcare providers, and regulatory agencies such as the FDA must make informed decisions on the outcomes of these devices. Surgical outcomes are often incredibly hard to measure, and successes can widely vary [^2]. Regardless, various metrics can be standardized and allow the comparison of surgical practices and techniques. The outcomes measured in this review focus on patient safety, the overall cost perspective, and usage rates among surgeons.
+
+[^1]: Mayo Clinic. (2022, May 6). Robotic Surgery. Mayo Foundation for Medical Education and Research. https://www.mayoclinic.org/tests-procedures/robotic-surgery/about/pac-20394974
+
+[^2]: “Measuring Surgical Outcomes.” 2023. The Royal College of Surgeons of England. https://www.rcseng.ac.uk/news-and-events/media-centre/media-background-briefings-and-statistics/measuring-surgical-outcomes/. 
